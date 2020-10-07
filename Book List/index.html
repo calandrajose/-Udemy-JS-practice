@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Book List</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Add Book</h1>
+        <div class="form">
+            <form class='form'>
+                <label for="title">Title</label>
+                <input id="title" type="text" class="title">
+                <label for="author">Author</label>
+                <input id="author" type="text" class="author">
+                <label for="isbn">ISBN</label>
+                <input id="isbn" type="text" class="isbn">
+                <input id="submitBtn" type="submit" value="Submit">
+            </form>
+        </div>
+
+        
+        <div class="list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Book Title</th>
+                        <th>Author</th>
+                        <th>ISBN</th>
+                        <th>DELETE</th>
+                    </tr>
+                </thead>
+                <tbody id="book-list">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/0d2914de69.js" crossorigin="anonymous"></script>
+<script src="es6.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Work Sans', sans-serif;
+}
+
+input{
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    /* border: 2px solid blue; */
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    width: 60rem;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#submitBtn{
+    width: 8rem;
+}
+
+.list{
+    margin-top: 2.5rem;
+}
+
+table{
+    margin: 1.5rem 0;
+    width: 100%;
+}
+tbody{
+    width:100%;
+    text-align: center;
+}
+
+th {
+    border-bottom: 1px solid #aaa;
+  }
+
+  .alert{
+      color: black;
+      width: 50%;
+      font-size: 1.5rem;
+      padding: .25rem;
+      margin: 0.5rem 0 1rem 0;
+      border-radius: 10px;
+  }
+
+  .succes{
+      background-color: #79d70f;
+  }
+
+  .error{
+      background-color: #ec0101
+  }
+  a:visited{
+      color: inherit;
+  }
+  .delete:hover{
+      cursor: pointer;
+  }
