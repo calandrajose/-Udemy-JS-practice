@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+        "esversion": "8"
+        "module": "commonjs"
+    }
+}
