@@ -1,0 +1,17 @@
+[
+    {
+        "name": "jose",
+        "salary": 56000,
+        "married": false
+    },
+    {
+        "name": "juan",
+        "salary": 50000,
+        "married": true
+    },
+    {
+        "name": "pedro",
+        "salary": 45000,
+        "married": false
+    }
+]
