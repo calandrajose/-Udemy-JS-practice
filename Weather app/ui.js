@@ -12,7 +12,6 @@ class UI {
     }
 
     setInterface(data) {
-        console.log(data);
         this.location.innerText = data.name;
         this.description.innerText = data.weather[0].description;
         this.temperature.innerText = data.main.temp + ' ° C';
@@ -22,5 +21,4 @@ class UI {
         this.feelsLike.innerText = `Feels like ${data.main.feels_like} ° C`;
         this.wind.innerText = `Wind at ${data.wind.speed} KM/H`;
     }
-
 }

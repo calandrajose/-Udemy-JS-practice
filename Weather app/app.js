@@ -1,6 +1,5 @@
 const storage = new Storage();
 const weatherLocation = storage.getLocationData();
-console.log(weatherLocation)
 const weather = new Weather(weatherLocation.city, weatherLocation.country);
 const ui = new UI();
 
